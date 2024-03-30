@@ -1,0 +1,18 @@
+Please complete the {function_name} function in the middle of a file.
+
+The contexts above the function are:
+```Python
+{contexts_above}
+```
+
+The contexts below the function are:
+```Python
+{contexts_below}
+```
+
+The code to be completed is:
+```Python
+{input_code}
+```
+
+Completed code:

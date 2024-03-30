@@ -1,0 +1,13 @@
+Please complete the {function_name} function based on the contexts above the function.
+
+The contexts above the function are:
+```Python
+{contexts_above}
+```
+
+The code to be completed is:
+```Python
+{input_code}
+```
+
+Completed code:
