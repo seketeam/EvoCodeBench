@@ -1,6 +1,6 @@
 # EvoCodeBench
 
-EvoCodeBench is an evolutionary code generation benchmark aligned with real-world code repositories. Details of EvoCodeBench can be found in our paper "EvoCodeBench: An Evolving Code Generation Benchmark Aligned with Real-world Code Repositories".
+EvoCodeBench is an evolutionary code generation benchmark aligned with real-world code repositories. Details of EvoCodeBench can be found in our paper "EvoCodeBench: An Evolving Code Generation Benchmark Aligned with Real-world Code Repositories" [Paper](https://lj2lijia.github.io/papers/EvoCodeBench_Preprint.pdf).
 
 ## News
 
