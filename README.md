@@ -6,6 +6,27 @@ EvoCodeBench is an evolutionary code generation benchmark aligned with real-worl
 
 [Mar 29, 2024] We release EvoCodeBench and its first version - EvoCodeBench-2403.
 
+## Outline
+
+- [EvoCodeBench](#evocodebench)
+  - [News](#news)
+  - [Outline](#outline)
+  - [Released Versions](#released-versions)
+  - [Metadata](#metadata)
+  - [Repositories and Dependency Data](#repositories-and-dependency-data)
+  - [Evaluation](#evaluation)
+    - [Before Evaluation](#before-evaluation)
+    - [Environment Setup](#environment-setup)
+    - [Output Format](#output-format)
+    - [Pass@k (Functional Correctness)](#passk-functional-correctness)
+    - [Recall@k (Recall of Reference Dependency)](#recallk-recall-of-reference-dependency)
+  - [Repository-level Code Generation](#repository-level-code-generation)
+    - [Experimental Settings](#experimental-settings)
+    - [Code Generation](#code-generation)
+  - [Model's Completion](#models-completion)
+  - [Leaderboard](#leaderboard)
+  - [Citation](#citation)
+
 ## Released Versions
 
 | Version | Release Date | Covered Period | Number of Samples | Number of Repositories | Link |
@@ -193,7 +214,7 @@ We release models' completions and their evaluation results on EvoCodeBench-2403
 
 ## Leaderboard
 
-We evaluate 10 popular LLMs on EvoCodeBench-2403, and the results are shown in the following Figure.
+We evaluate 10 popular LLMs on EvoCodeBench-2403, and the results are shown in the following Table.
 
 ![Leaderboard](images/LeadBoard.png)
 
