@@ -23,8 +23,8 @@ EvoCodeBench is an evolutionary code generation benchmark aligned with real-worl
   - [Repository-level Code Generation](#repository-level-code-generation)
     - [Experimental Settings](#experimental-settings)
     - [Code Generation](#code-generation)
-  - [Model's Completion](#models-completion)
-  - [Leaderboard](#leaderboard)
+    - [Model's Completion](#models-completion)
+    - [Leaderboard](#leaderboard)
   - [Citation](#citation)
 
 ## Released Versions
@@ -36,6 +36,8 @@ EvoCodeBench is an evolutionary code generation benchmark aligned with real-worl
 Where `Covered Period` means the time period of the repositories are created. You can download different versions of EvoCodeBench from the above links.
 
 ## Metadata
+![Example](images/Example.png)
+
 Each sample in EvoCodeBench contains the following fields:
 - `namespace`: string, the unique name of the code to be generated, e.g., `benedict.utils.type_util.is_bool`.
 - `type`: string, the type of the code to be generated. `method` means the code is a member function in a class, and `function` means the code is a individual function.
@@ -206,13 +208,13 @@ python process_completion.py \
 ```
 The outputed `completion.jsonl` file can be used in the evaluation process.
 
-## Model's Completion
+### Model's Completion
 
 We release models' completions and their evaluation results on EvoCodeBench-2403. Researchers can find the completions in the `model_completion` folder. For example, 
 - `model_completion/baseline/codellama-7b_greedy/completion.jsonl`: the completion of CodeLLaMa-7B-Python with greedy decoding in the baseline setting.
 - `model_completion/baseline/codellama-7b/completion.jsonl`: the completion of CodeLLaMa-7B-Python with temperature sampling in the baseline setting.
 
-## Leaderboard
+### Leaderboard
 
 We evaluate 10 popular LLMs on EvoCodeBench-2403, and the results are shown in the following Table.
 
