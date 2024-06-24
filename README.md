@@ -219,7 +219,7 @@ We release models' completions and their evaluation results on EvoCodeBench-2403
 
 We evaluate 10 popular LLMs on EvoCodeBench-2403, and the results are shown in the following Table.
 
-![Leaderboard](images/LeadBoard.png)
+![Leaderboard](images/LeadBoard-2403.png)
 
 ## Citation
 If you have any questions or suggestions, please email us at `lijia@stu.pku.edu.cn`.
