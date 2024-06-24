@@ -48,6 +48,7 @@ Each sample in EvoCodeBench contains the following fields:
 - `indent`: int, the indent of the code to be generated.
 - `tests`: list, a list of test functions, which are used to evaluate the generated code.
 - `requirement`: dict, the requirement of the code to be generated. The keys include `Functionality` and `Arguments`. `Functionality` is a string describing the functionality of the code to be generated. `Arguments` is a string explaining the input and output parameters.
+- `domain`: string, the domain of the code to be generated, e.g., `Internet`.
 
 
 ## Repositories and Dependency Data
