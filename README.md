@@ -36,7 +36,7 @@ EvoCodeBench is an evolutionary code generation benchmark aligned with real-worl
 Where `Covered Period` means the time period of the repositories are created. You can download different versions of EvoCodeBench from the above links.
 
 ## Metadata
-![Example](images/Example.png)
+![Example](images/Example_w_domain.png)
 
 Each sample in EvoCodeBench contains the following fields:
 - `namespace`: string, the unique name of the code to be generated, e.g., `benedict.utils.type_util.is_bool`.
