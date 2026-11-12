@@ -4,6 +4,7 @@ EvoCodeBench is an evolutionary code generation benchmark aligned with real-worl
 
 ## News
 
+[Nov 12, 2026] We release the docker image of EvoCodeBench. Thanks to Xutian Li for his contribution.
 [Mar 29, 2024] We release EvoCodeBench and its first version - EvoCodeBench-2403.
 
 ## Outline
@@ -67,7 +68,8 @@ The original repositories and dependency data of EvoCodeBench can be downloaded 
 3. If the Pass@k and Recall@k values are abnormal, the problem may be caused by the following reasons. (1) The environment is not set up correctly. (2) The generated code is not in the correct json format.
 
 ### Environment Setup
-We strongly recommend researchers to conduct evaluations in Ubuntu and use conda to create a virtual environment.
+We provide the docker image of EvoCodeBench. The link is [Docker Image](https://huggingface.co/datasets/Shooter492/deveval-evocodebench-docker).
+<!-- We strongly recommend researchers to conduct evaluations in Ubuntu and use conda to create a virtual environment.
 ```bash
 cd EvoCodeBench
 conda create --name EvoCodeBench --python=3.10
@@ -84,8 +86,7 @@ Then, researchers can build the execution environment by running the following c
 ```bash
 bash setup_env.sh
 ```
-It will cost a few hours to build the execution environment.
-
+It will cost a few hours to build the execution environment. -->
 ### Output Format
 Before evaluating, we need to convert models' outputs into a jsonl file. Each line of the jsonl file is a json object storing a completion for a requirement. An example of a json object is shown below.
 ```json
