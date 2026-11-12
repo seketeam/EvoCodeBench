@@ -68,7 +68,7 @@ The original repositories and dependency data of EvoCodeBench can be downloaded 
 3. If the Pass@k and Recall@k values are abnormal, the problem may be caused by the following reasons. (1) The environment is not set up correctly. (2) The generated code is not in the correct json format.
 
 ### Environment Setup
-We provide the docker image of EvoCodeBench. The link is [Docker Image](https://huggingface.co/datasets/Shooter492/deveval-evocodebench-docker).
+We provide the docker image of EvoCodeBench. Users can use the docker image to run the evaluation. The link of the docker image is [here](https://huggingface.co/datasets/Shooter492/deveval-evocodebench-docker).
 <!-- We strongly recommend researchers to conduct evaluations in Ubuntu and use conda to create a virtual environment.
 ```bash
 cd EvoCodeBench
