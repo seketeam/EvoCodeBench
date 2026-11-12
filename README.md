@@ -5,6 +5,7 @@ EvoCodeBench is an evolutionary code generation benchmark aligned with real-worl
 ## News
 
 [Nov 12, 2026] We release the docker image of EvoCodeBench. Thanks to Xutian Li for his contribution.
+
 [Mar 29, 2024] We release EvoCodeBench and its first version - EvoCodeBench-2403.
 
 ## Outline
